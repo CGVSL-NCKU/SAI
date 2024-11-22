@@ -1,0 +1,60 @@
+#home_logo IMG {
+	VISIBILITY: hidden
+}
+FORM {
+	VISIBILITY: hidden
+}
+FORM INPUT {
+	VISIBILITY: hidden
+}
+#content P {
+	FONT: 13px "Lucida Grande", Verdana, sans-serif; COLOR: #000
+}
+#content A {
+	FONT: 13px "Lucida Grande", Verdana, sans-serif; COLOR: #000; TEXT-DECORATION: underline
+}
+#content H1 {
+	COLOR: #000
+}
+#content H2 {
+	COLOR: #000
+}
+#content EM {
+	COLOR: #000
+}
+#rightcolumn H3 {
+	COLOR: #000
+}
+#rightcolumn A {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+#rightcolumn P EM {
+	COLOR: #000
+}
+#rightcolumn DD A {
+	COLOR: #000
+}
+#second_footer A {
+	COLOR: #000
+}
+#top_navigation A.breadcrumb {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+#top_navigation_right A {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.menu LI A {
+	COLOR: #000
+}
+#first_footer {
+	COLOR: #000
+}
+#first_footer A {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+SPAN.acm_sig_text {
+	COLOR: #000
+}
+#second_footer A.copyright {
+	COLOR: #000; TEXT-DECORATION: underline
+}

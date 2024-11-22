@@ -1,0 +1,33 @@
+BODY {
+	COLOR: #fff
+}
+A {
+	COLOR: #9cf
+}
+.btn DIV {
+	COLOR: #9cf
+}
+A:hover {
+	COLOR: #fff
+}
+#navbar-logo {
+	BACKGROUND-IMAGE: url(../../img/navbar/1/logobar.png)
+}
+#b-navbar {
+	BORDER-BOTTOM: #024 1px solid; BACKGROUND-COLOR: #036
+}
+#b-search {
+	BACKGROUND: url(../../img/navbar/1/corner.gif) #147 no-repeat left bottom
+}
+#b-query {
+	BORDER-RIGHT: #47a 1px solid; BORDER-TOP: #47a 1px solid; BORDER-LEFT: #47a 1px solid; BORDER-BOTTOM: #47a 1px solid
+}
+.btn {
+	BORDER-LEFT-COLOR: #47a; BORDER-BOTTOM-COLOR: #47a; BORDER-TOP-COLOR: #47a; BORDER-RIGHT-COLOR: #47a
+}
+.btn DIV {
+	BORDER-LEFT-COLOR: #47a; BORDER-BOTTOM-COLOR: #47a; BORDER-TOP-COLOR: #47a; BORDER-RIGHT-COLOR: #47a
+}
+.btn DIV:hover {
+	BACKGROUND-COLOR: #47a
+}

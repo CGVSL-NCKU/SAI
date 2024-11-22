@@ -1,0 +1,84 @@
+BODY {
+	FONT: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif
+}
+.menu {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+.menu UL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+.menu LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; Z-INDEX: 5; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: relative; BORDER-RIGHT-WIDTH: 0px
+}
+.menu LI:hover {
+	Z-INDEX: 10000; WHITE-SPACE: normal
+}
+.menu LI LI {
+	FLOAT: none
+}
+.menu UL {
+	Z-INDEX: 10; LEFT: 0px; VISIBILITY: hidden; POSITION: absolute; TOP: 0px
+}
+UNKNOWN {
+	VISIBILITY: visible; TOP: 100%
+}
+UNKNOWN {
+	LEFT: 100%; TOP: 0px
+}
+.menu:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; OVERFLOW: hidden; HEIGHT: 0px; content: "."
+}
+.menu UL:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; OVERFLOW: hidden; HEIGHT: 0px; content: "."
+}
+.menu {
+	MIN-HEIGHT: 0px
+}
+.menu UL {
+	MIN-HEIGHT: 0px
+}
+.menu UL {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(/s2008/images/empty.gif); PADDING-BOTTOM: 10px; MARGIN: -5px 0px 0px -5px; PADDING-TOP: 5px
+}
+.menu UL UL {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: -10px 0px 0px -14px; PADDING-TOP: 5px
+}
+.menu {
+	PADDING-LEFT: 20px; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #ca6c18
+}
+.menu UL LI {
+	BACKGROUND-IMAGE: url(/s2008/images/new_nav_background_v2.png)
+}
+.menu UL LI.top {
+	BACKGROUND-IMAGE: url(/s2008/images/new_nav_top_background_v2.png)
+}
+.menu UL LI.bottom {
+	BACKGROUND-POSITION: center bottom; BACKGROUND-IMAGE: url(/s2008/images/new_nav_bottom_background_v2.png); HEIGHT: 50px
+}
+.menu UL LI.longbottom {
+	BACKGROUND-POSITION: center bottom; BACKGROUND-IMAGE: url(/s2008/images/new_nav_longbottom_background_v2.png); HEIGHT: 70px
+}
+.menu UL {
+	WIDTH: 160px
+}
+.menu UL LI UL LI {
+	
+}
+.menu A {
+	PADDING-RIGHT: 0.75em; DISPLAY: block; PADDING-LEFT: 0.75em; PADDING-BOTTOM: 0.4em; COLOR: #fece7b; PADDING-TOP: 0.4em; POSITION: relative; TEXT-DECORATION: none
+}
+.menu UL LI A {
+	COLOR: #fff
+}
+UNKNOWN {
+	TEXT-DECORATION: underline
+}
+.menu LI LI {
+	
+}
+UNKNOWN {
+	
+}
+UNKNOWN {
+	LEFT: 100%; TOP: 5px
+}

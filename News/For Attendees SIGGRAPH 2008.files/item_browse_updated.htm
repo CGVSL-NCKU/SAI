@@ -1,0 +1,38 @@
+itemsPerPage = 50;
+curPos = 0;
+
+function browseXML() {
+	resultSetLength = $("session",xmlDataSet).length;
+	strToAppend = "";
+
+$("session:lt(" + parseInt(curPos + itemsPerPage) + ")",xmlDataSet).filter(":gt(" + parseInt(curPos - 1) + ")").each(function(i) {
+	var id = $(this).find('sessionid').text()
+	var name = $(this).find('sessionName').text()
+	var chair = $(this).find('sessionChair').text()
+	var venue = $(this).find('venueName').text()
+	var description = $(this).find('[@name="description"]').text()
+	var category = $(this).find('[@name="category"]').eq(0).text()
+	var start = $(this).find('sessionStartTime').text()
+	var end = $(this).find('sessionEndTime').text()
+//	var startnew = Date.parse(start).toString('dddd, d MMMM | h:mm tt');
+//	var endnew = Date.parse(end).toString('h:mm tt');
+	var startnew = Date.parse(start).format('%A, %e %B | g:%M a');
+	var endnew = Date.parse(end).format('g:%M a');
+	strToAppend += "<h1 class=\"pro_name\">" + name + "</h1><span class=\"pro_category\">" + category + "</span> <span class=\"pipe\">|</span> <span class=\"pro_starttime\">" + startnew + " - " + endnew + "</span> <span class=\"pipe\">|</span> <span class=\"pro_venue\">" + venue + "</span><br /><br />";
+	if (chair) { strToAppend += "<span class=pro_chair>Session Chair/Discussant</span><br /><span class=pro_chairname>" + chair + "</span><br /><br />" };});
+
+$("event:lt(" + parseInt(curPos + itemsPerPage) + ")",xmlDataSet).filter(":gt(" + parseInt(curPos - 1) + ")").each(function(i) {
+	var eventtitle = $(this).find('[@name="title"]').text()
+	var description = $(this).find('[@name="description"]').text()
+	var category = $(this).find('[@name="category"]').text()
+	var moderator = $(this).find('[@name="moderator"]').text()
+	var authoraffil = $(this).find('[@name="authoraffil"]').text()
+	var level = $(this).find('[@name="level"]').text()
+	var bios = $(this).find('[@name="bios"]').text()
+	var prerequisites = $(this).find('[@name="prerequisites"]').text()
+	strToAppend += "<p><b>" + eventtitle + "</b><br />" + description + "</p>"; if (authoraffil) { strToAppend += "<span class=pro_chair>AUTHORS</span><pre>" + authoraffil + "</pre>" }; 	
+	strToAppend += "";
+});
+
+	$("#content-update").html(strToAppend);
+}

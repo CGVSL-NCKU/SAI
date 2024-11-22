@@ -1,0 +1,348 @@
+#top_clock {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 121px; BACKGROUND: url(/s2008/images/top_countdown.gif) no-repeat 119px 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 135px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+#top_clock #top_clocktext {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #daa750; PADDING-TOP: 0px
+}
+#top_clock #top_clockflash {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #daa750; PADDING-TOP: 0px; POSITION: relative; TOP: -12px
+}
+#clock {
+	WIDTH: 160px; HEIGHT: 25px
+}
+#clock IMG#timer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 1px
+}
+#clocktext {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 17px; PADDING-BOTTOM: 0px; FONT: 10px "Lucida Grande", Verdana, sans-serif; PADDING-TOP: 0px
+}
+#clock #clockflash {
+	PADDING-RIGHT: 21px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative; TOP: -13px
+}
+#rightcolumn .countdown {
+	LEFT: 20px; POSITION: relative; TOP: -30px
+}
+.dotted {
+	BORDER-TOP-STYLE: dotted; BORDER-RIGHT-STYLE: dotted; BORDER-LEFT-STYLE: dotted; BORDER-BOTTOM-STYLE: dotted
+}
+BODY {
+	COLOR: #666
+}
+#top_navigation {
+	PADDING-LEFT: 30px; COLOR: #987720
+}
+A.breadcrumb {
+	FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #b45313; TEXT-DECORATION: none
+}
+.breadcrumb {
+	COLOR: #fff
+}
+.item {
+	COLOR: #987720
+}
+A.breadcrumb:hover {
+	TEXT-DECORATION: underline
+}
+.breadcrumb_current {
+	FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #fff
+}
+A.breadcrumb_current:hover {
+	TEXT-DECORATION: underline
+}
+A.signup {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.signup:hover {
+	TEXT-DECORATION: underline
+}
+.login {
+	COLOR: #b45313; TEXT-DECORATION: none
+}
+A.login:hover {
+	TEXT-DECORATION: underline
+}
+A.contactus {
+	FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #fff; TEXT-DECORATION: none
+}
+A.contactus:hover {
+	TEXT-DECORATION: underline
+}
+A.rss {
+	FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #fff; TEXT-DECORATION: none
+}
+A.rss:hover {
+	TEXT-DECORATION: underline
+}
+A.sitemap {
+	FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #fff; TEXT-DECORATION: none
+}
+A.sitemap:hover {
+	TEXT-DECORATION: underline
+}
+#content H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; FONT: bold 200% Helvetica, sans-serif; COLOR: #584132; PADDING-TOP: 0px
+}
+#content H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 7px; FONT: 14px "Lucida Grande", Verdana, sans-serif; COLOR: #00788a; PADDING-TOP: 0px
+}
+#content H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; FONT: 14px "Lucida Grande", Verdana, sans-serif; COLOR: #584132; PADDING-TOP: 10px
+}
+#content P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; FONT: 12px "Lucida Grande", Verdana, sans-serif; COLOR: #666; PADDING-TOP: 0px
+}
+#content P.small {
+	FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #999
+}
+#content P.brown {
+	COLOR: #b45214
+}
+#content P.home {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; FONT: 13px "Lucida Grande", Verdana, sans-serif; COLOR: #666; PADDING-TOP: 0px
+}
+#content UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#content UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 5px; FONT: 12px "Lucida Grande", Verdana, sans-serif; PADDING-TOP: 0px; LIST-STYLE-TYPE: disc
+}
+#content OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#content OL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 5px; FONT: 12px "Lucida Grande", Verdana, sans-serif; PADDING-TOP: 0px; LIST-STYLE-TYPE: decimal
+}
+#content DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; PADDING-TOP: 0px
+}
+#content DL DT A {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left bottom; PADDING-LEFT: 25px; BACKGROUND-IMAGE: url(/s2008/images/rss_page_bug.gif); PADDING-BOTTOM: 0px; FONT: 14px "Lucida Grande", Verdana, sans-serif; COLOR: #b45313; PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat
+}
+#content DL DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#content A {
+	FONT: bold 12px "Lucida Grande", Verdana, sans-serif; COLOR: #b45313; TEXT-DECORATION: none
+}
+#content A:hover {
+	COLOR: #b45313; TEXT-DECORATION: underline
+}
+#content EM {
+	FONT-WEIGHT: bold; COLOR: #00788a
+}
+#content BLOCKQUOTE {
+	PADDING-LEFT: 15px
+}
+.registration TH {
+	FONT: 10px "Lucida Grande", Verdana, sans-serif
+}
+.registration TD {
+	FONT: 10px "Lucida Grande", Verdana, sans-serif
+}
+.registration TH.access {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #574031; PADDING-TOP: 5px
+}
+#rightcolumn H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; PADDING-BOTTOM: 7px; FONT: 14px "Lucida Grande", Verdana, sans-serif; COLOR: #00788a; PADDING-TOP: 0px
+}
+#rightcolumn H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: 11px "Lucida Grande", Verdana, sans-serif; COLOR: #666666; PADDING-TOP: 5px; BACKGROUND-COLOR: #e4dccc
+}
+#rightcolumn P {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 3px; PADDING-BOTTOM: 10px; FONT: 10px "Lucida Grande", Verdana, sans-serif; PADDING-TOP: 0px
+}
+#rightcolumn UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#rightcolumn UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; PADDING-BOTTOM: 5px; FONT: 12px "Lucida Grande", Verdana, sans-serif; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#rightcolumn UL#program_type {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 7px; PADDING-TOP: 3px
+}
+#rightcolumn UL#program_date {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 3px
+}
+#rightcolumn UL#program_type LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; FONT: 12px "Lucida Grande", Verdana, sans-serif; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#rightcolumn UL#program_date LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; FONT: 12px "Lucida Grande", Verdana, sans-serif; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#rightcolumn A {
+	FONT: bold 10px "Lucida Grande", Verdana, sans-serif; COLOR: #b45313; TEXT-DECORATION: none
+}
+#rightcolumn A:hover {
+	FONT: bold 10px "Lucida Grande", Verdana, sans-serif; COLOR: #b45313; TEXT-DECORATION: underline
+}
+#rightcolumn DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; PADDING-BOTTOM: 5px; PADDING-TOP: 0px
+}
+#rightcolumn DT {
+	FLOAT: left; FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #999
+}
+#rightcolumn DD {
+	MARGIN: 0px 0px 0px 35px; FONT: 10px "Lucida Grande", Verdana, sans-serif
+}
+#rightcolumn DD A {
+	FONT: bold 10px "Lucida Grande", Verdana, sans-serif; COLOR: #b45313; TEXT-DECORATION: none
+}
+#rightcolumn DD A:hover {
+	FONT: bold 10px "Lucida Grande", Verdana, sans-serif; COLOR: #b45313; TEXT-DECORATION: underline
+}
+#footer {
+	FONT: 10px "Lucida Grande", Arial, sans-serif; COLOR: #584132
+}
+#footer A {
+	COLOR: #584132; TEXT-DECORATION: none
+}
+#footer A:hover {
+	TEXT-DECORATION: underline
+}
+#first_footer {
+	COLOR: #987720
+}
+#second_footer {
+	COLOR: #987720
+}
+#second_footer A {
+	COLOR: #b45313
+}
+#second_footer A.copyright {
+	COLOR: #fff
+}
+.acm_sig_text {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 70px; PADDING-BOTTOM: 0px; FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #fff; PADDING-TOP: 0px; POSITION: relative; TOP: 8px
+}
+#tagcloud_background {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(/s2008/images/tagcloud_background.gif); BACKGROUND-REPEAT: no-repeat
+}
+#tagcloud {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 22px; BORDER-TOP: #999 1px solid; MARGIN-TOP: 20px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/s2008/images/tagcloud.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 190px
+}
+#tagcloud P {
+	FONT-SIZE: 11px; MARGIN: 0px 0px 0px 50px
+}
+#tagcloud H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 20px 0px 3px 50px; PADDING-TOP: 0px
+}
+.tagcloud_gray {
+	COLOR: #999
+}
+#tagcloud A.size1 {
+	FONT-SIZE: 9px
+}
+#tagcloud A.size2 {
+	FONT-SIZE: 11px
+}
+#tagcloud A.size3 {
+	FONT-SIZE: 13px
+}
+#tagcloud A.size4 {
+	FONT-SIZE: 15px
+}
+#tagcloud A.size5 {
+	FONT-SIZE: 17px
+}
+#tagcloud A.size6 {
+	FONT-SIZE: 19px
+}
+#tagcloud A.size7 {
+	FONT-SIZE: 21px
+}
+#tagcloud A.size8 {
+	FONT-SIZE: 23px
+}
+#tagcloud A.size9 {
+	FONT-SIZE: 25px
+}
+#tagcloud_2 {
+	PADDING-RIGHT: 0px; BORDER-TOP: #999 1px solid; MARGIN-TOP: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #999 1px solid
+}
+#tagcloud_2 P {
+	FONT-SIZE: 11px; MARGIN: 0px
+}
+#tagcloud_2 H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 20px 0px 3px; PADDING-TOP: 0px
+}
+#tagcloud_2 A.size1 {
+	FONT-SIZE: 9px
+}
+#tagcloud_2 A.size2 {
+	FONT-SIZE: 11px
+}
+#tagcloud_2 A.size3 {
+	FONT-SIZE: 13px
+}
+#tagcloud_2 A.size4 {
+	FONT-SIZE: 15px
+}
+#tagcloud_2 A.size5 {
+	FONT-SIZE: 17px
+}
+#tagcloud_2 A.size6 {
+	FONT-SIZE: 19px
+}
+#tagcloud_2 A.size7 {
+	FONT-SIZE: 21px
+}
+#tagcloud_2 A.size8 {
+	FONT-SIZE: 23px
+}
+#tagcloud_2 A.size9 {
+	FONT-SIZE: 25px
+}
+#sponsors {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 65px
+}
+#sponsors H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 14px
+}
+#sponsors IMG {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#date {
+	DISPLAY: block
+}
+.hide {
+	VISIBILITY: hidden
+}
+#date:hover {
+	VISIBILITY: hidden
+}
+.hover {
+	VISIBILITY: visible
+}
+#content TABLE.tablespace TD {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 0px
+}
+#content TABLE.tablespace {
+	PADDING-BOTTOM: 15px
+}
+#content TABLE TD {
+	FONT-SIZE: 12px
+}
+#content #content-update P.pro_title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#content #content-update P.pro_title A {
+	FONT: 12px "Lucida Grande", Arial, sans-serif
+}
+#content-update DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 13px; PADDING-TOP: 0px
+}
+#content-update PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 12px "Lucida Grande", Arial, sans-serif; PADDING-TOP: 0px; WORD-WRAP: break-word
+}
+#content-update .pro_chair {
+	FONT: 11px "Lucida Grande", Arial, sans-serif; TEXT-TRANSFORM: uppercase
+}
+#content-update .pro_chairname {
+	COLOR: #ae9766
+}
+#content-update .pro_name {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 5px; PADDING-TOP: 0px; BORDER-BOTTOM: #999 1px solid
+}
+#content-update .pro_contributors {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #ae9766; PADDING-TOP: 0px
+}

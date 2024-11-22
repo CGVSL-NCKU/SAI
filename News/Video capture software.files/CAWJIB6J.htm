@@ -1,0 +1,184 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0298)http://www.blogger.com/navbar.g?targetBlogID=4614825694097201317&blogName=Video+capture+software&publishMode=PUBLISH_MODE_BLOGSPOT&navbarType=BLUE&layoutType=LAYOUTS&homepageUrl=http%3A%2F%2Fvideo-capture-software.blogspot.com%2F&searchRoot=http%3A%2F%2Fvideo-capture-software.blogspot.com%2Fsearch -->
+<HTML dir=ltr><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
+href="CAWJIB6J.files/3328360018-navbar.css" type=text/css rel=stylesheet><LINK 
+href="CAWJIB6J.files/1297325411-1.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.2900.3354" name=GENERATOR></HEAD>
+<BODY class="null lang_zh">
+<SCRIPT src="CAWJIB6J.files/3625575137-cookies.common.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="CAWJIB6J.files/1019856700-common.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="CAWJIB6J.files/107652916-dom.common.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+
+  
+   var ID = "4614825694097201317";
+   var FLAG_COOKIE_NAME = 'flaggedBlog';
+   var MAX_FLAGGED_BLOGS = 10;
+   var FLAG_BLOG_URL = "http://www.blogger.com" +
+                       "/flag-blog.g?nav=" +
+                       "1" +
+                       "&toFlag=" + ID;
+   var UNFLAG_BLOG_URL = "http://www.blogger.com" +
+                       "/unflag-blog.g?nav=" +
+                       "1" +
+                       "&toFlag=" + ID;
+
+   var ncHasFlagged = false;
+   var servletTarget = new Image();
+
+  
+  function hasFlagged() {
+    if (getCookie(FLAG_COOKIE_NAME)) {
+      var bloglist = getCookie(FLAG_COOKIE_NAME);
+      var blogarray = bloglist.split(",")
+      if (FindInArray(blogarray, ID) > 0) {
+        return true;
+      }
+    }
+    return ncHasFlagged;
+  }
+  
+
+  function toggleFlag() {
+    var date = new Date();
+    var flagBtn = document.getElementById('b-flag-this');
+
+    if (hasFlagged()) {
+      removeBlogFromFlagCookie();
+      servletTarget.src = UNFLAG_BLOG_URL + '&d=' + date.getTime();
+
+      RemoveClass(flagBtn, 'flagged');
+      ncHasFlagged = false;
+    } else {
+      setBloggerFlagCookie();
+      servletTarget.src = FLAG_BLOG_URL + '&d=' + date.getTime();
+
+      AddClass(flagBtn, 'flagged');
+      ncHasFlagged = true;
+    }
+
+    refreshDrop();
+  }
+
+  
+  function showDrop() {
+   var overlap = 5;
+   var dropdown_position =
+     GetPageOffsetRight(document.getElementById('b-flag-this')) - overlap + "px";
+
+   document.getElementById('unflagi').style.display = 'none';
+   document.getElementById('flagi').style.display = 'none';
+
+   if (!hasFlagged()) {
+      document.getElementById('flagi').style.display = 'inline';
+      document.getElementById('flagi').style.left = dropdown_position;
+      showElement(document.getElementById('flagi'));
+    } else {
+      document.getElementById('unflagi').style.display = 'inline';
+      document.getElementById('unflagi').style.left = dropdown_position;
+      showElement(document.getElementById('unflagi'));
+    }
+  }
+
+  
+  function hideDrop() {
+      hideElement(document.getElementById('flagi'));
+      hideElement(document.getElementById('unflagi'));
+  }
+
+  
+  function refreshDrop() {
+    hideDrop();
+    showDrop();
+  }
+
+  
+  function setBloggerFlagCookie() {
+    var bloglist = ""
+    if (getCookie(FLAG_COOKIE_NAME)) {
+      bloglist = getCookie(FLAG_COOKIE_NAME)
+      var blogarray = bloglist.split(",")
+      if (blogarray.length >= MAX_FLAGGED_BLOGS) {
+        blogarray.shift()
+      }
+      InsertArray(blogarray, ID)
+      bloglist = blogarray.toString();
+    } else {
+      bloglist = ID
+    }
+    setCookie(FLAG_COOKIE_NAME, bloglist, null, null, '/', null)
+   }
+
+  
+  function removeBlogFromFlagCookie(){
+    if (getCookie(FLAG_COOKIE_NAME)) {
+      var bloglist = getCookie(FLAG_COOKIE_NAME);
+      var blogarray = bloglist.split(",")
+      if (FindInArray(blogarray, ID) > 0) {
+        DeleteArrayElement(blogarray, ID)
+        bloglist = blogarray.toString();
+      }
+      setCookie(FLAG_COOKIE_NAME, bloglist, null, null, '/', null);
+    }
+  }
+  
+
+  </SCRIPT>
+
+<DIV id=flagi onmouseover=showDrop() style="POSITION: absolute" 
+onmouseout=hideDrop();>通知 Blogger 有關這個網頁上 <A 
+href="http://help.blogger.com/bin/answer.py?answer=42517" 
+target=_blank>令人反感的內容</A>。</DIV>
+<DIV id=unflagi onmouseover=showDrop() style="POSITION: absolute" 
+onmouseout=hideDrop()>您給這個網誌標上了含有 <A 
+href="http://help.blogger.com/bin/answer.py?answer=42517" 
+target=_blank>令人反感的內容</A>的標記。</DIV>
+<DIV id=b-navbar><A id=b-logo title="前往 Blogger.com" tabIndex=1 
+href="http://www.blogger.com/">
+<DIV id=navbar-logo><SPAN>Blogger</SPAN></DIV></A>
+<DIV class=b-mobile id=b-sms><A tabIndex=2 
+href="sms:?body=%E5%97%A8%EF%BC%81%E7%9E%A7%E7%9E%A7%20http%3A%2F%2Fvideo-capture-software.blogspot.com%2F%20%E4%B8%AD%E7%9A%84%20Video%20capture%20software">以 
+SMS 寄送</A></DIV>
+<DIV id=b-search>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD class=navsearch vAlign=center noWrap>
+      <FORM id=searchthis style="DISPLAY: inline" 
+      action=http://video-capture-software.blogspot.com/search method=get>
+      <TABLE cellSpacing=0 cellPadding=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=center><INPUT id=b-query title=搜尋網誌 tabIndex=3 name=q></TD>
+          <TD class=navbutton vAlign=center><NOSCRIPT><INPUT id=b-searchbtn 
+            title=搜尋此網誌 tabIndex=4 type=image alt=搜尋此網誌 
+            src="CAWJIB6J.files/btn_search_this.png"></NOSCRIPT>
+            <SCRIPT type=text/javascript>
+  document.write("\74div id\75\42b-search-this\42 class\75\42btn\42 onclick\75\42document.getElementById(\47searchthis\47).submit()\42 tabindex\75\0424\42\76\74div\76搜尋網誌\74/div\76\74/div\076");
+</SCRIPT>
+             </TD>
+          <TD class=navbutton vAlign=center>
+            <SCRIPT type=text/javascript>
+  document.write("\74div id\75\42b-flag-this\42 class\75\42btn\42 onclick\75\42toggleFlag();\42 onmouseover\75\42showDrop()\42 onmouseout\75\42hideDrop()\42 tabindex\75\0425\42\76\74div id\75\42bt-flag-body\42\76\74img class\75\42flag\42 alt\75\42\42 src\75\42http://www.blogger.com/img/navbar/1/flag.gif\42\76\n標記網誌不當內容\74/div\76\n\74div id\75\42bt-unflag-body\42\76\74img class\75\42flag\42 alt\75\42\42 src\75\42http://www.blogger.com/img/navbar/1/unflag.gif\42\76\n取消網誌的標記\74/div\76\74/div\076");
+</SCRIPT>
+          </TD></TR></TBODY></TABLE></FORM></TD>
+    <TD vAlign=center noWrap width="100%"><A id=b-next tabIndex=6 
+      href="http://www.blogger.com/next-blog?navBar=true">下一個網誌»</A></TD>
+    <TD class=navbar-right vAlign=center noWrap align=right><A id=b-getorpost 
+      tabIndex=7 href="http://www.blogger.com/signup.g">建立網誌</A> | <A tabIndex=8 
+      href="http://www.blogger.com/">登入</A></TD></TR></TBODY></TABLE></DIV></DIV>
+<SCRIPT src="CAWJIB6J.files/urchin.js" type=text/javascript>
+    </SCRIPT>
+
+<SCRIPT type=text/javascript>
+      _uacct="UA-18003-7";
+      _uanchor=1;
+      urchinTracker();
+    </SCRIPT>
+</BODY></HTML>

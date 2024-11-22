@@ -1,0 +1,129 @@
+BODY {
+	BACKGROUND: #c8ab7a
+}
+#banner {
+	HEIGHT: 66px; BACKGROUND-COLOR: #3b281a
+}
+#banner LI {
+	LIST-STYLE-TYPE: none; POSITION: relative; TOP: 0px
+}
+#banner LI {
+	DISPLAY: block; HEIGHT: 66px
+}
+#banner A {
+	DISPLAY: block; HEIGHT: 66px
+}
+#link1 {
+	BACKGROUND: url(/s2008/images/banner_v5.gif) no-repeat -28px 0px; MARGIN: auto; WIDTH: 812px
+}
+#link1 A:hover {
+	BACKGROUND: url(/s2008/images/banner_v5.gif) no-repeat -28px -66px
+}
+#search_container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px 13px 0px 0px; WIDTH: 300px; PADDING-TOP: 0px
+}
+#search {
+	FLOAT: right; MARGIN: 0px
+}
+#search INPUT {
+	FONT: 11px "Lucida Grande", Verdana, sans-serif; WIDTH: 157px; COLOR: #666; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#container {
+	BACKGROUND-IMAGE: url(/s2008/images/right_background_v5.png); MARGIN: auto; WIDTH: 812px; BACKGROUND-REPEAT: repeat-y
+}
+#top_navigation {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 10px "Lucida Grande", Verdana, sans-serif; COLOR: #fff; PADDING-TOP: 18px; HEIGHT: 28px; BACKGROUND-COLOR: #c8ab7a; TEXT-DECORATION: none
+}
+#top_navigation_right {
+	PADDING-RIGHT: 25px; BACKGROUND-POSITION: 0px 0px; PADDING-LEFT: 20px; FLOAT: right; BACKGROUND-IMAGE: url(/s2008/images/rss_bug.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 15px
+}
+#home_top_logo_background {
+	CLEAR: both; BACKGROUND-IMAGE: url(/s2008/images/new_logo_top_v2.png); BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; BACKGROUND-COLOR: #c8ab7a
+}
+#home_logo {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(/s2008/images/new_home_logo_v4.jpg); WIDTH: 800px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 138px
+}
+#logo {
+	WIDTH: 800px; HEIGHT: 115px
+}
+#rightcolumn {
+	PADDING-RIGHT: 40px; FLOAT: right; MARGIN: 30px 0px 0px; WIDTH: 180px
+}
+#rightcolumn HR {
+	COLOR: #ccc; BACKGROUND-COLOR: #ccc
+}
+.signup_button {
+	MARGIN: 0px 0px 10px 10px
+}
+#content {
+	MARGIN: 30px 280px 0px 28px
+}
+#content HR {
+	COLOR: #ccc; BACKGROUND-COLOR: #ccc
+}
+#home2_content_background {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(/s2008/images/bottom_background_v3.gif); WIDTH: 820px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 29px
+}
+#home_content_background {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(/s2008/images/bottom_background_v2.gif); WIDTH: 820px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 29px
+}
+#content_background {
+	CLEAR: both; BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(/s2008/images/bottom_background_v2.png); WIDTH: 820px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; PADDING-TOP: 1em; BACKGROUND-COLOR: #c8ab7a
+}
+#first_footer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+#footer HR {
+	COLOR: #fff; HEIGHT: 2px; BACKGROUND-COLOR: #fff
+}
+#second_footer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; PADDING-BOTTOM: 20px; PADDING-TOP: 10px
+}
+#navigation {
+	BACKGROUND: #ca6c18; WIDTH: 800px; PADDING-TOP: 0.25em; HEIGHT: 1.7em
+}
+.footer_hr {
+	MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #fff 1px solid
+}
+#acm_sig {
+	FLOAT: right; BACKGROUND-IMAGE: url(/s2008/images/acm_sig_logos.gif); MARGIN: 2px 0px 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 30px
+}
+#content TABLE {
+	
+}
+#content TR {
+	
+}
+#content TD {
+	PADDING-BOTTOM: 10px
+}
+#twitter_div {
+	
+}
+#content-update {
+	WIDTH: 500px
+}
+DIV#viewall {
+	FLOAT: right
+}
+DIV#dynamicbrowse {
+	FLOAT: left; WIDTH: 500px; HEIGHT: 10px
+}
+DIV#dynamicnav {
+	FLOAT: left; HEIGHT: 10px
+}
+DIV#billboards {
+	WIDTH: 504px; HEIGHT: 150px
+}
+IMG#billboard_left {
+	FLOAT: left; WIDTH: 249px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+IMG#billboard_right {
+	PADDING-LEFT: 4px; FLOAT: right; WIDTH: 251px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+IMG.program {
+	PADDING-RIGHT: 10px; FLOAT: left; PADDING-BOTTOM: 10px
+}
